@@ -1,0 +1,12 @@
+<application>
+  <component name="TerminalOptionsProvider">
+    <option name="myCopyOnSelection" value="false" />
+    <option name="myOverrideIdeShortcuts" value="false" />
+    <option name="myPasteOnMiddleMouseButton" value="false" />
+    <option name="myReportMouse" value="false" />
+    <option name="myShellIntegration" value="false" />
+    <option name="myShellPath" value="C:\msys64\usr\bin\zsh.exe" />
+    <option name="mySoundBell" value="false" />
+    <option name="myTabName" value="Antinux" />
+  </component>
+</application>
