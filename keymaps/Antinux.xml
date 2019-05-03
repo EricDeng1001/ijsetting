@@ -1,16 +1,10 @@
-<keymap version="1" name="Default copy" parent="$default">
-  <action id="$ChooseTranslatorAction" />
+<keymap version="1" name="Antinux" parent="$default">
   <action id="$Cut">
     <keyboard-shortcut first-keystroke="ctrl x" />
-  </action>
-  <action id="$EditorTranslateAction">
-    <keyboard-shortcut first-keystroke="ctrl t" />
   </action>
   <action id="$Redo">
     <keyboard-shortcut first-keystroke="shift ctrl z" />
   </action>
-  <action id="$ShowTranslationDialogAction" />
-  <action id="$TranslateAndReplaceAction" />
   <action id="$Undo">
     <keyboard-shortcut first-keystroke="ctrl z" />
   </action>
@@ -18,35 +12,23 @@
     <keyboard-shortcut first-keystroke="shift alt d" />
   </action>
   <action id="ActivateDebugToolWindow" />
-  <action id="ActivateDesignerToolWindow">
-    <keyboard-shortcut first-keystroke="shift alt g" />
-  </action>
-  <action id="ActivateDockerToolWindow">
-    <keyboard-shortcut first-keystroke="shift alt x" />
-  </action>
   <action id="ActivateEventLogToolWindow">
-    <keyboard-shortcut first-keystroke="shift alt l" />
+    <keyboard-shortcut first-keystroke="shift alt e" />
   </action>
   <action id="ActivateFavoritesToolWindow">
-    <keyboard-shortcut first-keystroke="shift alt f" />
-  </action>
-  <action id="ActivateFindToolWindow">
     <keyboard-shortcut first-keystroke="shift alt f" />
   </action>
   <action id="ActivateMavenToolWindow">
     <keyboard-shortcut first-keystroke="shift alt m" />
   </action>
   <action id="ActivateMessagesToolWindow">
-    <keyboard-shortcut first-keystroke="shift alt e" />
+    <keyboard-shortcut first-keystroke="shift alt 0" />
   </action>
   <action id="ActivateProjectToolWindow">
     <keyboard-shortcut first-keystroke="shift alt p" />
   </action>
   <action id="ActivateRunToolWindow">
     <keyboard-shortcut first-keystroke="shift alt i" />
-  </action>
-  <action id="ActivateSpringToolWindow">
-    <keyboard-shortcut first-keystroke="shift alt s" />
   </action>
   <action id="ActivateStructureToolWindow">
     <keyboard-shortcut first-keystroke="shift alt s" />
@@ -74,30 +56,18 @@
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
-  <action id="CloseProject">
-    <keyboard-shortcut first-keystroke="ctrl alt w" />
-  </action>
   <action id="CodeInspection.OnEditor" />
   <action id="CompareTwoFiles" />
   <action id="CopyPaths" />
   <action id="CopyReference" />
-  <action id="Coverage">
-    <keyboard-shortcut first-keystroke="shift ctrl alt r" />
-  </action>
   <action id="EditSource" />
-  <action id="Editor EditorTranslateAction">
-    <keyboard-shortcut first-keystroke="ctrl t" />
-  </action>
   <action id="EditorAddOrRemoveCaret" />
-  <action id="EditorAddRectangularSelectionOnMouseDrag" />
   <action id="EditorBackSpace">
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
   <action id="EditorContextInfo">
     <keyboard-shortcut first-keystroke="alt c" />
   </action>
-  <action id="EditorCreateRectangularSelection" />
-  <action id="EditorCreateRectangularSelectionOnMouseDrag" />
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
@@ -138,55 +108,36 @@
   <action id="Forward">
     <keyboard-shortcut first-keystroke="ctrl alt right" />
   </action>
-  <action id="Git.Pull">
-    <keyboard-shortcut first-keystroke="ctrl u" />
-  </action>
-  <action id="GotoAction">
-    <keyboard-shortcut first-keystroke="shift alt a" />
-  </action>
   <action id="GotoClass" />
   <action id="GotoCustomRegion" />
   <action id="GotoDeclaration">
-    <keyboard-shortcut first-keystroke="ctrl n" />
+    <keyboard-shortcut first-keystroke="shift 1" />
   </action>
   <action id="GotoFile" />
   <action id="GotoImplementation">
-    <keyboard-shortcut first-keystroke="shift ctrl i" />
+    <keyboard-shortcut first-keystroke="shift 2" />
   </action>
   <action id="GotoLine">
     <keyboard-shortcut first-keystroke="alt l" />
   </action>
-  <action id="GotoNextError">
-    <keyboard-shortcut first-keystroke="ctrl alt down" />
-  </action>
-  <action id="GotoPreviousError">
-    <keyboard-shortcut first-keystroke="ctrl alt up" />
-  </action>
   <action id="GotoRelated">
-    <keyboard-shortcut first-keystroke="shift ctrl r" />
+    <keyboard-shortcut first-keystroke="shift 6" />
   </action>
   <action id="GotoSuperMethod">
-    <keyboard-shortcut first-keystroke="shift ctrl s" />
+    <keyboard-shortcut first-keystroke="shift 4" />
   </action>
   <action id="GotoSymbol" />
   <action id="GotoTest">
-    <keyboard-shortcut first-keystroke="shift ctrl c" />
+    <keyboard-shortcut first-keystroke="shift 5" />
   </action>
   <action id="GotoTypeDeclaration">
-    <keyboard-shortcut first-keystroke="shift ctrl q" />
-  </action>
-  <action id="HideActiveWindow" />
-  <action id="JumpToLastChange" />
-  <action id="JumpToLastWindow">
-    <keyboard-shortcut first-keystroke="shift escape" />
+    <keyboard-shortcut first-keystroke="shift 3" />
   </action>
   <action id="NewScratchFile" />
-  <action id="NextOccurence" />
   <action id="NextProjectWindow" />
   <action id="ParameterInfo">
     <keyboard-shortcut first-keystroke="alt p" />
   </action>
-  <action id="PreviousOccurence" />
   <action id="PreviousProjectWindow" />
   <action id="QuickChangeScheme" />
   <action id="QuickImplementations">
@@ -195,35 +146,28 @@
   <action id="QuickJavaDoc">
     <keyboard-shortcut first-keystroke="alt q" />
   </action>
+  <action id="RecentChangedFiles">
+    <keyboard-shortcut first-keystroke="shift alt r" />
+  </action>
   <action id="RecentChanges" />
   <action id="RecentFiles">
     <keyboard-shortcut first-keystroke="alt r" />
-  </action>
-  <action id="RecentLocations">
-    <keyboard-shortcut first-keystroke="shift alt r" />
   </action>
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="ctrl h" />
   </action>
   <action id="Replace" />
   <action id="RerunTests" />
-  <action id="RestoreDefaultLayout" />
   <action id="Run">
     <keyboard-shortcut first-keystroke="ctrl r" />
   </action>
-  <action id="RunClass">
-    <keyboard-shortcut first-keystroke="ctrl r" />
-  </action>
   <action id="ShowBookmarks">
-    <keyboard-shortcut first-keystroke="ctrl q" />
+    <keyboard-shortcut first-keystroke="alt b" />
   </action>
   <action id="ShowErrorDescription">
     <keyboard-shortcut first-keystroke="alt e" />
   </action>
   <action id="ShowFilePath" />
-  <action id="Start.Use.Vcs">
-    <keyboard-shortcut first-keystroke="alt i" />
-  </action>
   <action id="ToggleBookmark">
     <keyboard-shortcut first-keystroke="ctrl b" />
   </action>
@@ -233,9 +177,6 @@
   <action id="ToggleDistractionFreeMode">
     <keyboard-shortcut first-keystroke="f3" />
   </action>
-  <action id="ToggleFloatingMode">
-    <keyboard-shortcut first-keystroke="shift f11" />
-  </action>
   <action id="ToggleFullScreen">
     <keyboard-shortcut first-keystroke="f11" />
   </action>
@@ -244,9 +185,6 @@
   </action>
   <action id="TypeHierarchy" />
   <action id="Vcs.MoveChangedLinesToChangelist" />
-  <action id="Vcs.UpdateProject" />
-  <action id="context.clear" />
-  <action id="context.load" />
   <action id="context.save" />
   <action id="tasks.switch" />
 </keymap>
